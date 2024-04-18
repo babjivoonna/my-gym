@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import './Header.css'
 import logo from '../../assets/logo.png'
 import Bars from '../../assets/bars.png'
-import {Link} from '.react-scroll'
+import {Link} from 'react-scroll'
 
 
 const Header = () => {
@@ -20,11 +20,13 @@ const Header = () => {
       src={Bars} alt="" />
       </div>:(
  <ul className="header-menu">
- <li onClick={()=>setMenuOpened(false)}>Home</li>
- <li onClick={()=>setMenuOpened(false)}>Programs</li>
- <li onClick={()=>setMenuOpened(false)}>Why us</li>
- <li onClick={()=>setMenuOpened(false)}>Plans</li>
- <li onClick={()=>setMenuOpened(false)}>Testimonials</li>
+  <li ><Link onClick={()=>setMenuOpened(false)}  to="hero" activeClass="active"span={true} smooth={true}>Home</Link></li>
+  <li ><Link onClick={()=>setMenuOpened(false)}  to="Programs" span={true} smooth={true}>Programs</Link></li>
+  {/* <li ><Link onClick={()=>setMenuOpened(false)}  to="reasons" span={true} smooth={true}>Why Choose Us</Link></li> */}
+ <li ><Link onClick={()=>setMenuOpened(false)}  to="Plans" span={true} smooth={true}>Plans</Link></li>
+ <li ><Link onClick={()=>setMenuOpened(false)}  to="Testimonials" span={true} smooth={true}>Testimonials</Link></li>
+ <li ><Link onClick={()=>setMenuOpened(false)}  to="Testimonials" span={true} smooth={true}>Diet Plans</Link></li>
+ <li ><Link onClick={()=>setMenuOpened(false)}  to="Testimonials" span={true} smooth={true}>Create Diet Plan</Link></li>
 </ul>
       )}
       
