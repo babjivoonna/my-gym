@@ -77,7 +77,7 @@ export const exerciseData=[{
      img:"https://i.pinimg.com/236x/8b/bf/7e/8bbf7e6b7f552ff36eabd5bae742b75a--exercise-for-hamstrings-glutes-exercises.jpg",
      name:"",
      description:"",
-    relatedimg:[{img:""},{img:""},{img:""},{img:""}]
+
   
   },
   {
@@ -85,7 +85,7 @@ export const exerciseData=[{
      img:"",
      name:"",
      description:"",
-    relatedimg:[{img:""},{img:""},{img:""},{img:""}]
+
   
   },
   {
@@ -93,7 +93,7 @@ export const exerciseData=[{
      img:"",
      name:"",
      description:"",
-    relatedimg:[{img:""},{img:""},{img:""},{img:""}]
+    
   
   },
   {
@@ -101,15 +101,14 @@ export const exerciseData=[{
      img:"",
      name:"",
      description:"",
-    relatedimg:[{img:""},{img:""},{img:""},{img:""}]
-  
+    
   },
   {
      id:14,
      img:"",
      name:"",
      description:"",
-    relatedimg:[{img:""},{img:""},{img:""},{img:""}]
+    
   
   },
   {
@@ -117,7 +116,7 @@ export const exerciseData=[{
      img:"",
      name:"",
      description:"",
-    relatedimg:[{img:""},{img:""},{img:""},{img:""}]
+    
   
   },
   {
@@ -125,7 +124,7 @@ export const exerciseData=[{
      img:"",
      name:"",
      description:"",
-    relatedimg:[{img:""},{img:""},{img:""},{img:""}]
+   
   
   },
   {
@@ -133,7 +132,7 @@ export const exerciseData=[{
      img:"",
      name:"",
      description:"",
-    relatedimg:[{img:""},{img:""},{img:""},{img:""}]
+   
   
   },
   ]

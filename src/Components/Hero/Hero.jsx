@@ -24,7 +24,7 @@ const Hero = () => {
               ></motion.div>
               <span>the best fintness club in the town</span>
             </div>
-            {/* the hero add */}
+          
             <div className="hero-text">
               <div>
                 <span className="stroke-text">Shape</span>
@@ -42,7 +42,7 @@ const Hero = () => {
               </span>
                 </div>
             </div>
-            {/* figures */}
+           
             <div className="figures">
              <div>
              <span>+150</span>
@@ -59,7 +59,7 @@ const Hero = () => {
               <span>fitness programs</span>
              </div>
             </div>
-            {/* hero buttons */}
+          
             <div className="hero-button">
               <buttons className="btn">Get Started</buttons>
               <buttons className="btn">Learn More</buttons>
@@ -86,7 +86,7 @@ const Hero = () => {
         whileInView={{right:'20rem'}}
         transition={transition}
         src={Hero_image_back} className="hero-image-back" alt="Hero_image_back" />
-        {/* calories */}
+      
         <div className="calories">
           <img src={Calories} alt="" />
          <div>

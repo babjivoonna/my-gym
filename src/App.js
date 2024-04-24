@@ -37,6 +37,9 @@ import Programs from './Components/Programs/Programs';
 import Reason from './Components/Reasons/Reason';
 import Testimonials from './Components/Testimonials/Testimonials';
 import CreateDietPlan from './Pages/CreateDietPlan';
+import AllDietPlans from './Components/Diets/AllDietPlans';
+import UserExercisePractise from './ExercisePractise/UserExercisePractise';
+
 
 function App() {
   return (
@@ -48,9 +51,14 @@ function App() {
       <Testimonials/>
       <Join/>
       <Footer/> */}
+       
       <Routes>
         <Route path="/" element={<CommonComponents />} />
-        <Route path="/createDietPlan" element={<CreateDietPlan />} />
+        <Route path="/createDietPlan" element={
+          
+            <CreateDietPlan />
+        } />
+        <Route path="/exercisePractice" element={<UserExercisePractise/>}/>
       </Routes>
     </div>
   );
@@ -59,8 +67,9 @@ function App() {
 function CommonComponents() {
   return (
     <>
-      <Hero/>
+     <Hero/>
       <Programs/>
+      <AllDietPlans/>
       <Reason/>
       <Plans/>
       <Testimonials/>

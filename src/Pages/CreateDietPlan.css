@@ -18,15 +18,29 @@
 } 
 .diet-box{
     width: 20rem;
-    /* height: 10rem; */
-    background-color: antiquewhite;
+    height: auto;
+    background-color: rgb(1, 0, 19);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    color: white;
+    box-shadow:0 10px 8px #845cf1dc
+}
+.diet-box p>input{
+    border-radius: 10px;
+    border: none;
 }
 .diet-box img{
-    width: 6rem;
-    height: 6rem;
+    width: 5rem;
+    height: 5rem;
     object-fit:cover;
+    border-radius: 10px;
+}
+.diet-btn{
+    width: 5rem;
+    height: 2rem;
+    background-color: white;
+    border-radius: 10px;
+    border: none;
 }

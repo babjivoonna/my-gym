@@ -1,12 +1,18 @@
-import React,{createContext, useState}from 'react'
+import React,{createContext, useEffect, useState}from 'react'
+// import AllDietPlans from '../Components/Diets/AllDietPlans'
 
-const context=createContext()
-const ContextProvider = () => {
+export const StoreContext=createContext()
+const ContextProvider = (props) => {
     const [allDietPlans,setAllDietPlans]=useState([])
+    
+    const values={
+      setAllDietPlans,
+      allDietPlans
+    }
   return (
-    <div>
-      
-    </div>
+    <StoreContext.Provider value={values}>
+      {props.children}
+    </StoreContext.Provider>
   )
 }
 

@@ -1,0 +1,43 @@
+.exercise-practise{
+    width: 100%;
+    height: 100vh;
+    background-color: var(--darkGrey);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+}
+.user-exercise{
+    width: 20rem;
+    height: 20rem;
+    background-color: rgb(23, 1, 60);
+    box-shadow:0 10px 8px #999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color:white;
+    font-size: 1rem;
+}
+.user-exercise img{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 10px;
+    box-shadow:0 10px 8px #23010100;
+}
+.user-timer{
+    width: 10rem;
+    height: 10rem;
+    border: 1px solid black;
+    position: relative;
+    border-radius: 50%;
+    padding: 10px;
+}
+.circle-background{
+    fill: none;
+    stroke: #ddd;
+}
+.circle-progress{
+    fill: none;
+    stroke: #12c2e9;
+}

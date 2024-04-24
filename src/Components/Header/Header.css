@@ -12,6 +12,14 @@
     gap: 2rem;
     color: white;
 }
+.RouterLink{
+color: white;
+text-decoration: none;
+}
+.RouterLink:hover{
+    color: var(--orange);
+    cursor: pointer;
+}
 .header-menu>li{
     cursor: pointer;
 }
